@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import datetime
 import random
 import hashlib
@@ -13,9 +12,6 @@ from PIL import Image
 import io
 import folium
 from streamlit_folium import folium_static
-# 在文件顶部的导入部分添加
-import matplotlib.dates as mdates
-
 
 # ==================== 配置设置 ====================
 st.set_page_config(
@@ -2636,4 +2632,5 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         st.error(f"程序运行出错: {str(e)}")
+
         st.info("请刷新页面重试，或联系技术支持")
