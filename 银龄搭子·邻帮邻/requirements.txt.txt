@@ -4,3 +4,6 @@ streamlit-folium==0.15.1
 pandas==2.1.3
 numpy==1.24.3
 Pillow==10.1.0
+matplotlib==3.7.0  # 新增这一行！
+geopy==2.4.1       # 新增这一行！
+plotly==5.18.0     # 新增这一行！
